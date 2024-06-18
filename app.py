@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, send_file
 from PIL import Image
 import os
-from io import BytesIO
 
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
